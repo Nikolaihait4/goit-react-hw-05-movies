@@ -68,7 +68,9 @@ function MovieCard({ movie }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Go to the official website"
-              ></a>
+              >
+                Go to the official website
+              </a>
             )}
           </div>
           {tagline && <i>{tagline}</i>}
