@@ -1,0 +1,23 @@
+/* Movies.module.css */
+
+.buttonCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; /* Добавляем выравнивание элементов по вертикали */
+  padding: 16px;
+}
+
+.loadMore {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loadMore:hover {
+  background-color: #0056b3;
+}

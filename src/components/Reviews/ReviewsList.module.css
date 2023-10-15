@@ -1,0 +1,69 @@
+.reviewsContainer {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reviewsItem {
+  list-style: none;
+  padding: 0;
+}
+
+.reviewsList {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reviewsImgoCont {
+  display: flex;
+  align-items: center;
+}
+
+.reviewsImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.reviewsInfCont {
+  flex: 1;
+}
+
+.reviewsAut {
+  font-size: 16px;
+  margin: 0;
+}
+
+.reviewsPost {
+  font-weight: bold;
+  color: #333;
+}
+
+.reviewsRating {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffaa00; /* Цвет рейтинга */
+  margin-left: 10px;
+}
+
+.reviewsWhen {
+  font-size: 14px;
+  color: #666;
+}
+
+.reviewsWhen2 {
+  font-weight: bold;
+  color: #333;
+}
+
+.content {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+}

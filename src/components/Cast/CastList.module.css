@@ -1,0 +1,43 @@
+.castListCont {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.castListItem {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.castListList {
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+}
+
+.castListImg {
+  border-radius: 50%;
+}
+
+.castListInfo {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.castListName {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.castListHar {
+  font-size: 16px;
+  color: #555;
+}

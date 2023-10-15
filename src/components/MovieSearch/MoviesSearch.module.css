@@ -1,0 +1,64 @@
+/* MovieSearch.module.css */
+
+.movieSearchCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.movieSearchList {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  transition: transform 0.3s;
+  justify-content: center;
+}
+
+.movieSearchList:hover {
+  transform: translateY(-5px); /* Поднимаем карту при наведении */
+}
+
+.movieSearchLink {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #333;
+  height: 100%;
+  width: 100%;
+}
+
+.movieSearchImgCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 324px;
+  overflow: hidden;
+}
+
+.movieSearchImg {
+  max-width: 100%;
+  max-height: 100%;
+  max-width: 224px;
+  height: auto;
+}
+
+.movieSearchInfoCont {
+  padding-top: 16px;
+}
+
+.movieSearchTitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  width: 190px;
+}
+
+.movieSearchDate {
+  font-size: 14px;
+  color: #777;
+}

@@ -1,0 +1,53 @@
+.movieContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Определяем 5 колонок */
+  gap: 20px; /* Отступы между карточками */
+  list-style: none;
+  padding: 0;
+}
+
+.movieLink {
+  text-decoration: none;
+  background-color: #fff;
+  color: #333;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.movieImgContainer {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.movieImgContainer:hover {
+  transform: translateY(-5px); /* Поднимаем карточку на 5 пикселей */
+}
+
+.movieImg {
+  max-width: 275px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.movieTitleContainer {
+  max-width: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.movieTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

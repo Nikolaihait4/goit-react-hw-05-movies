@@ -1,0 +1,57 @@
+.goBack {
+  margin: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.goBack a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.goBack a:hover {
+  text-decoration: underline;
+}
+
+.goBack a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+.moveiDetailsCont {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.moveiDetailsTitle {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.moveiDetailsItem {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.moveiDetailsList {
+  margin: 0 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.moveiDetailsList a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.moveiDetailsList a:hover {
+  text-decoration: underline;
+}
